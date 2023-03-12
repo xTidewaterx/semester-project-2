@@ -1,0 +1,225 @@
+//$primary: #fdf9fc;
+$blue: rgb(202, 182, 170); //primary is blue and we do this before import, we input our values from a original source, value is the value, primary is blue, 
+//we import and it is overwritten, values are present we have our input, there is a directory, orderly list, we have data vlues that communicate all linked, we have relations between data and we compile
+//$font-family-base: 'Montserrat', sans-serif;
+$font-family-base: 'Poppins', sans-serif;
+//make another one for h1
+//serif contrast font for heritage and pride of what is a very acknoladgglbe field of texture sculptures, the refined, the design
+
+$bgDefault   : #e28c64;
+
+$spacer: 2rem;
+h1 {
+
+   // font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'PT Serif', serif;;
+    text-align: center;
+   
+  
+}
+
+footer.bg-secondary.text-white {
+
+    margin-top: 50vh;
+}
+ 
+body {
+
+    font-family: $font-family-base;
+    min-height: 100vh;
+   
+   
+
+} /*logout delte item localstorage, object call inner, temporary, same if statement edit element*/
+
+.navbar {
+    margin-bottom:50px;
+}
+
+
+$light: rgb(145, 136, 107);
+
+
+.navbar-default {
+    background-color: #da5c5c;
+    border-color: #440e0e;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+@import "../node_modules/bootstrap/scss/variables";
+
+@import "../node_modules/bootstrap/scss/utilities";
+
+@import "../scss/variables/variables";
+
+$light: rgb(173, 27, 27);
+
+
+
+$theme-colors: (
+
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+// map-get($theme-colors, light); //we have variable vlaues,, we read this of our codde links now, we import this first, value before map
+
+$pinkColor: (
+"regular": rgb(255, 138, 226), 
+"lighter":rgb(252, 175, 232) ,
+"lightest": rgb(255, 223, 246),
+
+
+);
+
+
+
+$grid-gutter-width: 1.5rem;
+$gutters: (
+  0: 10,
+  1: $spacer * 1.25,
+  2: $spacer * 2.5,
+  3: $spacer,
+  4: $spacer * 4.5,
+  5: $spacer * 3,
+);
+
+
+
+
+
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
+
+
+
+
+h6 {
+
+    font-size: 50px;
+
+   color:  map-get($pinkColor, lighter);
+   
+   
+  
+}
+
+
+
+
+.heroImage {
+
+    
+    background-color: #a18c70;
+}
+
+
+
+a {
+
+    list-style: none;
+    text-decoration: none;
+  
+
+
+}
+
+a:hover {
+
+    filter: brightness(110%);
+   
+    
+}
+
+
+nav {
+    margin: 0px;
+}
+
+.container-fluid {
+
+
+    margin: 0px;
+}
+
+
+.navbar {
+
+    background-color:  map-get($brand-colors, regular);
+    padding: 40px;
+   
+    
+   li {
+    margin-left: 20px;
+   }
+    a {color: white;
+   }
+   a:hover {
+    color: #ffe0b5;
+    text-decoration: underline;
+   }
+
+
+
+    a.nav-link.active {
+        color: rgb(202, 202, 202);
+        box-shadow: 0px 0px 5px 4px #fff;
+        max-width: 100px;
+        
+        
+    }
+}
+
+
+footer {
+
+    margin-top: 50vh;
+}
+
+
+nav label {
+
+    color: white;
+}
+
+button.navbar-toggler {
+
+    color: white;
+}
+
+.navbar-toggler-icon {
+
+    color: white;
+    filter: invert(100%);
+}
+
+
+.logo {
+
+    max-width: 40px;
+    filter: opacity(40%);
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+
+button#logout {
+
+    float: right;
+   padding-right: 20px;
+}
