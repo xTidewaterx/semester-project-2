@@ -1,0 +1,98 @@
+const passwordInput = document.querySelector("input.password");
+
+
+passwordInput.addEventListener("input", passwordInputFunction);
+
+
+
+function passwordInputFunction (e) {
+
+
+  e = e.target.value;
+
+  //we have made this, we have our parameter, this is our updated on input value of e.target.value, the parameter represents a process where we can add a value
+    
+console.log(e);
+
+
+ 
+    return e;
+}
+
+
+
+function variableFunction (e, b) {
+
+   return  e + b;
+
+
+}
+
+const variableAnswer = variableFunction(5,6);
+
+console.log(variableAnswer);
+
+
+
+function variableFunction2 (key) {
+
+    return localStorage.getItem(key);
+ 
+ 
+ }
+
+const token =  variableFunction2("token");
+
+console.log(token);
+
+///we experience that the parameter is saying "any value that you replace me with, will go through this process of processes"
+//therefore the function with e.target.value will be undefined because to target something a value must be connected to a target value, addeventlistener, and the target is also the parameter
+//we create a parameter that expereicnes the process of localstorage.getitem, we add our value, the value is linked with the process of our data linkss
+ 
+
+
+
+
+
+const container = document.querySelector(".container");
+
+container.innerHTML = `<button type="button" class="delete">Delete</button>` //this removes all the html, add a plus  // + + ++ + + this mean we add and compile, we create more rather than change, we only add, addition the action or process of adding something to something else.
+
+
+const button = document.querySelector("button.delete");
+
+button.onclick =
+
+async function  ( ) {
+
+    const url = "https://strapi-sp2-noroff.herokuapp.com/products/2"; //if url is wrong then cors origin cors missing allow origin , cors header //this is the delete code
+
+    //we now have a delete request, we cna shorten the code, and create inputs for this, input  uses trim, 
+
+
+   const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjYzMjUwNDY1LCJleHAiOjE2NjU4NDI0NjV9.n46m8kL9pCny2fM4bTLII5uGW0pVIBy3LXg0-3WLsKU";
+
+const options = {
+    method: "DELETE",
+    headers: {
+        Authorization: `Bearer ${token}`,
+    },
+
+
+
+};
+console.log("Hhh");
+
+const response  = await fetch(url, options);
+
+const json = await response.json();
+
+console.log(json);
+
+
+
+}
+
+
+
+///this is our url
