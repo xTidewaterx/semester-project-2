@@ -33,7 +33,8 @@ You can scroll through products that are fetched with an api call. Targeting any
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/xTidewaterx/semester-project-2.git
+git clone 
+https://github.com/xTidewaterx/semester-project-2.git
 ```
 
 2. Install the dependencies:
