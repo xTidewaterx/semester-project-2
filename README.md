@@ -13,11 +13,7 @@ You can scroll through products that are fetched with an api call. Targeting any
 
 
 
-You can add some bullet points if you'd like to:
 
-- List item 1
-- List item 2
-- List item 3
 
 ## Built With
 
