@@ -1,0 +1,52 @@
+
+$pink: rgb(242, 224, 243);
+
+@import "../scss/variables/variables";
+
+
+h1 {
+    color: rgb(121, 111, 103);
+}
+
+
+
+body {
+
+    background-image: url(../background-image/19021593.jpg);
+    background-repeat: repeat;
+}
+
+
+.card {
+
+    box-shadow: 10px 10px 10px $pink;
+}
+
+form.d-flex {
+    margin-left: 40px;
+}
+
+input {
+
+   
+}
+
+
+@media only screen and (max-width: 990px) {
+
+   
+    input {
+
+        margin-top: map-get($margin, medium);
+    }
+
+   a.nav-link.active {
+        padding-left: 10px;
+    }
+
+  }
+
+a {
+
+    color: rgb(85, 78, 78);
+  }
