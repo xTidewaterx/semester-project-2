@@ -9,7 +9,7 @@ An online store that primarily sells things made of stone.
 ## Description
 
 Add a more detailed description of what your project entails and set out to do.
-You can scroll through products that are fetched with an api call. Targeting any of them leads to a details page that fetches only the specific target from the endpoin, and gives you all of the properties associated with it, you can add seelcted products to the cart. Items added to the cart are saved with localstorage and found on the cart page in an li list that adds up the value of each item to return a total sum for all products in cart. The application also includes login/logout functionality, and uses sass for better scalability and ease of use in comparision to plain css. Navigation has higlighter to let you users know what page they are currently on and pages are responsive on all devices, mobile and larger screens. 
+You can scroll through products that are fetched with an api call. Targeting any of them leads to a details page that fetches only the specific target from the endpoin, and gives you all of the properties associated with it, you can add seelcted products to the cart. Items added to the cart are saved with localstorage and found on the cart page in an li list that adds up the value of each item to return a total sum for all products in cart. The application also includes login/logout functionality, and uses sass for better scalability and ease of use in comparision to plain css. Navigation has higlighter to let  users know what page they are currently on. Any action is complimented by trust in terms of sensible UX design and pages are responsive on all devices, mobile and larger screens. 
 
 
 
@@ -21,7 +21,6 @@ You can add some bullet points if you'd like to:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
 
 - [Javascript](https://www.javascript.com/)
 - [Sass](https://sass-lang.com/)
