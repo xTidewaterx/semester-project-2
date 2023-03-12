@@ -4,7 +4,7 @@
 
 
 
-##An online store that primarily sells things made of stone.
+## An online store that primarily sells things made of stone.
 
 ## Description
 
