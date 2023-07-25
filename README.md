@@ -9,7 +9,7 @@
 ## Description
 
 
-You can scroll through products that are fetched with an api call. Targeting any of them leads to a details page that fetches only the specific target from the endpoin, and gives you all of the properties associated with it, you can add seelcted products to the cart. Items added to the cart are saved with localstorage and found on the cart page in an li list that adds up the value of each item to return a total sum for all products in cart. The application also includes login/logout functionality, and uses sass for better scalability and ease of use in comparision to plain css. Navigation has higlighter to let  users know what page they are currently on. Any action is complimented by trust in terms of sensible UX design and pages are responsive on all devices, mobile and larger screens. 
+You can scroll through products that are fetched using the await promise functionality. Targeting any of them leads to a details page that fetches only the specific target from the endpoint, and gives you all of the properties associated with it, you can add seelcted products to the cart. Items added to the cart are saved with localstorage and found on the cart page in an li list that adds up the value of each item to return a total sum for all products in cart. The application also includes login/logout functionality, and uses sass for better scalability and ease of use in comparision to plain css. Navigation has higlighter to let  users know what page they are currently on. Any action is complimented by trust in terms of sensible UX design and pages are responsive on all devices, mobile and larger screens. 
 
 
 
